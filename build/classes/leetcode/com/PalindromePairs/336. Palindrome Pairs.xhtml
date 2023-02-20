@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Facelet Title</title>
+    </head>
+    <body>
+        You are given a 0-indexed array of unique strings words.
+
+A palindrome pair is a pair of integers (i, j) such that:
+
+    0 <= i, j < word.length,
+    i != j, and
+    words[i] + words[j] (the concatenation of the two strings) is a palindrome string.
+
+Return an array of all the palindrome pairs of words.
+
+ 
+
+Example 1:
+
+Input: words = ["abcd","dcba","lls","s","sssll"]
+Output: [[0,1],[1,0],[3,2],[2,4]]
+Explanation: The palindromes are ["abcddcba","dcbaabcd","slls","llssssll"]
+
+Example 2:
+
+Input: words = ["bat","tab","cat"]
+Output: [[0,1],[1,0]]
+Explanation: The palindromes are ["battab","tabbat"]
+
+Example 3:
+
+Input: words = ["a",""]
+Output: [[0,1],[1,0]]
+Explanation: The palindromes are ["a","a"]
+
+    </body>
+</html>
+
