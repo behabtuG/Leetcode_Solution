@@ -24,3 +24,7 @@ Constraints:
     1 <= arr[i] <= 1000
     1 <= k <= 1000
     arr[i] < arr[j] for 1 <= i < j <= arr.length
+
+
+Time: O(logn)
+Space: O(1)
